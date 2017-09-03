@@ -1,0 +1,1 @@
+('C:/Users/Tom/Documents/py', ['__pycache__'], ['123.txt', 'big.jpg', 'content.txt', 'hanoi.py', 'IO.py', 'module.py', 'test.py', 'test1.py', 'test2.py', 'test_oop.py', 'test_oop2.py', 'test_oop3.py', 'triangles.py'])('C:/Users/Tom/Documents/py\\__pycache__', [], ['module.cpython-35.pyc'])

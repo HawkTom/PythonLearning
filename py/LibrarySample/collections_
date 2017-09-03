@@ -1,0 +1,22 @@
+#----------------------------------------
+#----collections是Python内建的一个集合模块--
+#----------------------------------------
+
+from collections import namedtuple, deque, Counter
+
+#-----namedturple自定义对象-----------
+Point = namedtuple('Point', ['x', 'y'])
+p = Point(1, 2)
+print(p.x, p.y)
+# ------deque双向列表，适用队列和栈
+q = deque(['a', 'b', 'c'])
+q.append('x')
+q.appendleft('y')
+print(q)
+# -------defaultdict--------------
+#--------Orderdict--------------
+# -------Counter计数器-----
+c = Counter()
+for ch in 'programming':
+	c[ch]=c[ch]+1
+print(c)
