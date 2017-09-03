@@ -12,8 +12,3 @@ class queue(object):
         self.que.pop(0)
         self.size -= 1
 
-
-a = queue()
-for i in range(5):
-    a.input(i)
-
